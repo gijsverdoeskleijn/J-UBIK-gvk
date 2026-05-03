@@ -91,7 +91,7 @@ J-UBIK allows to process and image event files from the James Webb Space Telesco
 
 ## Requirements
 In order to make use of the JWST capabilities of the package, you will need to:
-- Install the [jwst](https://jwst-pipeline.readthedocs.io/en/latest/getting_started/install.html) package.
+- Install the [jwst](https://github.com/spacetelescope/jwst?tab=readme-ov-file#installation) package.
 - Install [stpsf](https://stpsf.readthedocs.io/en/latest/installation.html).
 - Install [gwcs](https://gwcs.readthedocs.io/en/latest/#installation).
 
