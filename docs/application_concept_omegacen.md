@@ -81,7 +81,7 @@ This note describes one UBIK application idea that the OmegaCEN Astronomical Sci
 - Are there parts of the project direction that still feel unclear from the perspective of this application? How well does it work in the challenging environment of kHz atmospheric variations and gravity-induced minute scale variations in instrument models. 
 
 ## Resources
-- Roughly what would a full-time position cost in your environment per year? postdoc, PhD, senior researcher. 
+- Roughly what would a full-time position cost in your environment per year? postdoc, PhD, senior researcher. with SPL using start date in June 2027 
 - Are there additional costs beyond the usual overhead that would be associated with the project? (regular on-site visits, hardware/tools,...): no
 
 
