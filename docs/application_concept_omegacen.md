@@ -5,7 +5,7 @@
 - Canonical Role: `template`
 - Last reviewed: `2026-05-07`
 - Authors: [Gijs Verdoes Kleijn](https://gijsverdoeskleijn.org), ...
-- classification: this note is for [Torsten Enßlin](https://wwwmpa.mpa-garching.mpg.de/~ensslin/) and Jakob Knollmüller for circulation inside their UBIK/IFT group and for [Gijs Verdoes Kleijn](https://gijsverdoeskleijn.org) and [Eduardo Balbinot](https://balbinot.github.io/) for circulation inside their [OmegaCEN group](https://gijsverdoeskleijn.wordpress.com/omegacen-astronomical-science-data-center/).
+- classification: this note is for [Torsten Enßlin](https://wwwmpa.mpa-garching.mpg.de/~ensslin/) and Jakob Knollmüller for circulation inside their UBIK/IFT group and for [Gijs Verdoes Kleijn](https://gijsverdoeskleijn.org) and [Eduardo Balbinot](https://balbinot.github.io/) and [Rees Williams](https://www.rug.nl/staff/o.r.williams/?lang=en) for circulation inside their [OmegaCEN group](https://gijsverdoeskleijn.wordpress.com/omegacen-astronomical-science-data-center/).
 - caveat: it contains links to proprietary code repositories and documents that might currently not be accessible to some of us. These can be made available upon request: contact either Gijs or Jakob.
     
 This note describes one idea for an UBIK application that the OmegaCEN Astronomical Science Data Center could pursue as a collaborative project with the [Information Field Theory Group / UBIK](https://wwwmpa.mpa-garching.mpg.de/~ensslin/) team at MPA and the [Data Science group at German Centre for Astrophysics (DZA)](https://www.deutscheszentrumastrophysik.de/en). The response is informal and bullet-point based, and does not yet answer every prompt in equal detail. We answer selectively and focus on the points that are most helpful for understanding the idea. The OmegaCEN team is happy to have a next discussion with the UBIK team to advance the idea into a concrete work package as part of the UBIK PI-ed [HORIZON-INFRA-2026-TECH-01-01](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-INFRA-2026-TECH-01-01?isExactMatch=true&status=31094501,31094502,31094503&callIdentifier=HORIZON-INFRA-2026-01&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate) funding proposal with deadline 16 June 2026. The work package would start June 2027 with a HORIZON-funded postdoctoral researcher as core member. 
@@ -88,7 +88,7 @@ This note describes one idea for an UBIK application that the OmegaCEN Astronomi
 - If available, can you provide papers, notes, earlier proposals, slides, draft ideas, or internal documents that would help us understand this application better?: [OmegaCEN code repositories](https://gitlab.astro-wise.org/), [Euclid ground-based code repositories](https://gitlab.euclid-sgs.uk/PF-EXT), [OmegaCEN astro-IT papers](https://ui.adsabs.harvard.edu/user/libraries/CnQTHc69StOZTG4Zz09Hew), [OmegaCEN astro-scientific papers](https://ui.adsabs.harvard.edu/user/libraries/fnZv2q4lQIesQosSguH7Eg)
 
 ## General Notes
-- None
+- Idea to have UBIK be deployed also on remote sensing. We have some contacts in the NL.  
 
 END DOCUMENT
 
