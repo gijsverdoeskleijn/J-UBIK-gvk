@@ -1,24 +1,34 @@
 # Euclid/OmegaCEN Precision Imaging Inference Current Proposal State
 
+
+  
 ## Purpose
 This brief records the current proposal-facing state of the Euclid/OmegaCEN line as of `2026-05-12`.
-It is derived from proposal text only and keeps the current work-package, deliverable, and milestone wording as intact as possible while converting LaTeX syntax to Markdown.
+It is derived from [application_concept_omegacen](https://github.com/gijsverdoeskleijn/J-UBIK-gvk/blob/main/docs/application_concept_omegacen.md) which was used to update the proposal. This bried is derived from the proposal text only and keeps the current work-package, deliverable, and milestone wording as intact as possible while converting LaTeX syntax to Markdown.
 
 ## Feedback Requested
 Please use this brief to check whether the current proposal text represents your project line accurately and usefully.
+<gvk: overall it does>
 
 This is an informal proposal-framing check, not a final commitment of role, effort, beneficiary status, data access, or deliverable ownership.
 
 You can either answer the questions below or add comments directly in the text using `Comment: ...`.
 
-1. What in this description feels accurate and important to keep?
-2. What feels wrong, misleading, overstated, understated, or awkwardly framed?
-3. What scientific, instrumental, data, validation, or domain context is missing?
-4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective?
-5. What should we change, add, remove, or rephrase?
+1. What in this description feels accurate and important to keep? *Comment: OmegaCEN's contribution to WP3 and WP4.* 
+2. What feels wrong, misleading, overstated, understated, or awkwardly framed? *Comment: OmegaCEN not making a contribution to WP5.* 
+3. What scientific, instrumental, data, validation, or domain context is missing? *Comment: appears complete as this moment (on 260515)*
+4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective? Comment: OmegaCEN should make a contribution to WP5. 
+5. What should we change, add, remove, or rephrase? *Comment: Gijs thinks first thing to achieve is that Eduardo and/or Gijs join the 9:00 CEST regular UBIK application meeting. Reason: ensure Eduardo and Gijs achieve clarity about concepts and jargon used in this brief. Next one  Then proposals for changes, additions, removals or rephrasing can be requested by Eduardo and Gijs.*
 
 ## Proposal Context
-UBIK is framed as a shared inferential core developed together with application lines, not as a set of disconnected demonstrations. WP1 defines shared contracts, trust, and reference-workflow logic; WP2 develops two separate reusable framework-adapter routes, ScopeSim-JAX for observatory simulation and Pyxel-JAX for detector modeling; WP3 integrates concrete instruments and data chains; WP4 validates scientific and operational applications; WP5 makes workflows runnable and inspectable; WP6 supports coordination, onboarding, uptake, and transfer.
+UBIK is framed as a shared inferential core developed together with application lines, not as a set of disconnected demonstrations.
+
+*Comment: Gijs interprets previous sentence to convey that the J-UBIK inferential core code development is guided by feedback from the application lines. And vice versa: that the application line code developments are guided by feedback from the J-UBIK core team.*  
+
+WP1 defines shared contracts, trust, and reference-workflow logic;
+*Comment: sounds very nice. Gijs assumes previous sentence on WP1 means WP1 organizes consortium agreement on how the project is run and responsiblities.*
+
+WP2 develops two separate reusable framework-adapter routes, ScopeSim-JAX for observatory simulation and Pyxel-JAX for detector modeling; WP3 integrates concrete instruments and data chains; WP4 validates scientific and operational applications; WP5 makes workflows runnable and inspectable; WP6 supports coordination, onboarding, uptake, and transfer.
 
 WP map: WP1 core; WP2 framework adapters; WP3 instrument integration; WP4 scientific and operational applications; WP5 compute; WP6 coordination/transfer.
 
