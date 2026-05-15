@@ -15,9 +15,9 @@ This is an informal proposal-framing check, not a final commitment of role, effo
 You can either answer the questions below or add comments directly in the text using `Comment: ...`.
 
 1. What in this description feels accurate and important to keep? *Comment: OmegaCEN's contribution to WP3 and WP4.* 
-2. What feels wrong, misleading, overstated, understated, or awkwardly framed? *Comment: OmegaCEN not making a contribution to WP5.* 
+2. What feels wrong, misleading, overstated, understated, or awkwardly framed? *Comment: Nothing.* 
 3. What scientific, instrumental, data, validation, or domain context is missing? *Comment: appears complete as this moment (on 260515)*
-4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective? Comment: OmegaCEN should make a contribution to WP5. 
+4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective? Comment: Explore if OmegaCEN should make a contribution to WP5. 
 5. What should we change, add, remove, or rephrase? *Comment: Gijs thinks first thing to achieve is that Eduardo and/or Gijs join the 9:00 CEST regular UBIK application meeting. Reason: ensure Eduardo and Gijs achieve clarity about concepts and jargon used in this brief. Next one  Then proposals for changes, additions, removals or rephrasing can be requested by Eduardo and Gijs.*
 
 ## Proposal Context
@@ -29,6 +29,7 @@ WP1 defines shared contracts, trust, and reference-workflow logic;
 *Comment: sounds very nice. Gijs assumes previous sentence on WP1 means WP1 organizes consortium agreement on how the project is run and responsiblities.*
 
 WP2 develops two separate reusable framework-adapter routes, ScopeSim-JAX for observatory simulation and Pyxel-JAX for detector modeling; WP3 integrates concrete instruments and data chains; WP4 validates scientific and operational applications; WP5 makes workflows runnable and inspectable; WP6 supports coordination, onboarding, uptake, and transfer.
+*Comment: Gijs assumes WP5 is the workpacakge that takes as input prototype algorithmic code developed by WP4 and develops robust, performant maintainable workflows from it. I assume typical team members of WP4 are code-savvy astronomers and research software engineers. Typical team members of WP5 are software engineers and research software engineers.*
 
 WP map: WP1 core; WP2 framework adapters; WP3 instrument integration; WP4 scientific and operational applications; WP5 compute; WP6 coordination/transfer.
 
@@ -45,6 +46,7 @@ This brief concerns the Euclid/OmegaCEN precision imaging inference line. It sta
 
 ## Current Proposal Role
 The proposal says that the current application lines are the first co-development lines for the UBIK core, not downstream demonstrations of a finished platform. Each line should be read through the same methodological card: what scientific state is inferred, which measurements constrain it, why the application matters in its own right, which application requirements it brings to UBIK, which posterior products and validation route make the result trustworthy, and which reusable reference-workflow lesson returns to the shared core.
+*Comment: Gijs assumes that for the application line "Euclid/OmegaCEN precision imaging" the entries on the methodological card are: "what scientific state is inferred"= the photometry and astrometry of Euclid VIS/NIR/ground-based single epoch frame images. "which measurement constrain it"= photometry and astrometry derived from independent pipelines. For VIS/NIR thos are the ones developed by the Euclid Consortium. For ground-based single epoch frames the photometry and astrometry derived by pipelines developed in the Euclid Consortium and by the UNIONS and DES survey teams. "why the application matters in its own right":the UBIK-based Bayesian image processing and extraction aims to make improved or comparable color homogeneity, astrometry, photometry to the current methods for image processing and extraction and shall improve upon failure diagnosis with uncertainty products and provenance thanks to the backward and forward differential propagation. "the application requirements it brings to UBIK"= deliver photometry accurate to mmags and astrometry accurate to tens of milliarcsecond in the challenging environment of kHz atmospheric variations and gravity-induced minute-scale temporal variations in instrument models. "which posterior products and validation route make the result trustworthy"=good photometric redshifts, good color homogeneity, good astrometric residuals relative to Gaia. "which reusable reference-workflow lesson returns to the shared core": reusable reference-workflow for wide-field imagers inside an atmosphere and in space.*    
 
 ### Euclid/OmegaCEN precision imaging inference
 - This line concerns survey-production quality in which Euclid VIS/NIR and ground-based optical/NIR imaging provide complementary constraints on a shared sky or source scene.
