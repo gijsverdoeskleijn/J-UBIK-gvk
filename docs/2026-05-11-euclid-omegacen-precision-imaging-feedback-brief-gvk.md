@@ -16,7 +16,7 @@ You can either answer the questions below or add comments directly in the text u
 
 1. What in this description feels accurate and important to keep? *Comment: OmegaCEN's contribution to WP3 and WP4.* 
 2. What feels wrong, misleading, overstated, understated, or awkwardly framed? *Comment: Nothing.* 
-3. What scientific, instrumental, data, validation, or domain context is missing? *Comment: appears complete as this moment (on 260515)*
+3. What scientific, instrumental, data, validation, or domain context is missing? *Comment: Gijs sees two processes that we can replace by their Bayesian imaging counterpart. The process of recalibrating photometrically and astrometrically the single epoch frames and their PSF models. And the process of coadding the recalibrated single epoch frame data products into coadded PSF models and coadded science pixels and their auxiliary data.*
 4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective? Comment: Explore if OmegaCEN should make a contribution to WP5. 
 5. What should we change, add, remove, or rephrase? *Comment: Gijs thinks first thing to achieve is that Eduardo and/or Gijs join the 9:00 CEST regular UBIK application meeting. Reason: ensure Eduardo and Gijs achieve clarity about concepts and jargon used in this brief. Next one  Then proposals for changes, additions, removals or rephrasing can be requested by Eduardo and Gijs.*
 
@@ -52,8 +52,8 @@ The proposal says that the current application lines are the first co-developmen
 - This line concerns survey-production quality in which Euclid VIS/NIR and ground-based optical/NIR imaging provide complementary constraints on a shared sky or source scene.
 - Its standalone value is more diagnosable precision imaging: improved or comparable color homogeneity, astrometry, photometry, or failure diagnosis with uncertainty products and provenance rather than only final image products.
 - Its first demonstrator focuses on color homogeneity in one public or accessible Euclid-related field, while treating AstroWISE, GOOD, Euclid SGS, Euclid Science Data Center uptake, and proprietary survey data as maturation routes rather than starting promises.
-- Its methodological pressure is spatially varying PSFs and passbands, weights, flags, masks, astrometric and photometric calibration terms, metadata handoffs, data-rights labels, recognized baseline products, and quality-failure diagnostics at the few-mmag and milliarcsecond frontier.
-- Its reusable UBIK output is a reference pattern for turning survey-production handoffs into explicit model components and diagnostics that can distinguish sky structure from PSF, passband, calibration, registration, masking, or provenance problems.
+- Its methodological pressure is spatially varying PSFs and passbands, weights, flags, masks, astrometric and photometric calibration terms, metadata handoffs, data-rights labels, recognized baseline products, and quality-failure diagnostics at the few-mmag and milliarcsecond frontier. *Comment: Gijs does not grasp what "recognized baseline products" points to.*
+- Its reusable UBIK output is a reference pattern for turning survey-production handoffs into explicit model components and diagnostics that can distinguish sky structure from PSF, passband, calibration, registration, masking, or provenance problems. *Comment: Gijs assumes handoffs of survey-production indicate transfer between the relatively independent sequential pipelines in the Euclid Science Ground Segment. Between the Processing Functions of Organizational Units in Euclid speak.*
 
 ### Impact framing
 - Euclid/OmegaCEN precision imaging inference supports survey-production quality by making color homogeneity, PSF and passband effects, astrometric and photometric calibration, provenance, and quality-failure diagnosis more uncertainty-aware and inspectable.
@@ -61,33 +61,33 @@ The proposal says that the current application lines are the first co-developmen
 
 ## Work Package Text
 ### WP3 Instrument Integration
-WP3 integrates concrete instruments, sensors, detectors, archives, survey-production handoffs, reconstruction inputs, and observation chains against the WP1 contracts and the WP2 framework adapters where applicable. Its job is to make the measurement side of each application line explicit: which instrument sees which latent state, through which response, metadata, calibration, detector, mask, noise, and likelihood assumptions.
+WP3 integrates concrete instruments, sensors, detectors, archives, survey-production handoffs, reconstruction inputs, and observation chains against the WP1 contracts and the WP2 framework adapters where applicable. *Comment: Gijs does not grasp what "integrates ... against WP1 contracts and WP2 frameworks means.*  Its job is to make the measurement side of each application line explicit: which instrument sees which latent state, through which response, metadata, calibration, detector, mask, noise, and likelihood assumptions. *Comment: Gijs assumes latent state means the unobserved true sky scene, or true physical signal, before the instrument has distorted and noisy-measured it.*
 
 Relevant WP3 objectives:
-- Integrate Euclid VIS/NIR plus ground-based optical/NIR imaging, AstroWISE/GOOD/Euclid SGS-style production handoffs, PSF, passband, weights, flags, masks, astrometric and photometric calibration terms, provenance, and data-rights labels for one public or accessible Euclid-related field.
-- Provide Euclid/OmegaCEN integration evidence on calibration, provenance, metadata completeness, data access, and operational tractability, in a form that can later enter the wider WP3 readiness comparison.
+- Integrate Euclid VIS/NIR plus ground-based optical/NIR imaging, AstroWISE/GOOD/Euclid SGS-style production handoffs, PSF, passband, weights, flags, masks, astrometric and photometric calibration terms, provenance, and data-rights labels for one public or accessible Euclid-related field. *Comment: Gijs does not grasp into what the integration in the previous sentence is.*
+- Provide Euclid/OmegaCEN integration evidence on calibration, provenance, metadata completeness, data access, and operational tractability, in a form that can later enter the wider WP3 readiness comparison. *Comment: Gijs does not grasp what evidence of integration means in this context.*
 
 `T3.1 Initial instrument-integration specifications`
-- For Euclid/OmegaCEN, specify Euclid VIS/NIR and ground-based optical/NIR image products, PSF models, passband effective wavelengths, weights, flags, masks, astrometric and photometric calibration terms, metadata, data-rights labels, and recognized baseline products.
+- For Euclid/OmegaCEN, specify Euclid VIS/NIR and ground-based optical/NIR image products, PSF models, passband effective wavelengths, weights, flags, masks, astrometric and photometric calibration terms, metadata, data-rights labels, and recognized baseline products. *Comment: Gijs assumes this task starts from the Euclid data model (XSD) that describes some aspects of the image products, PSF models, passbands etcetera. I guess this will be an incomplete description of what the Bayesian inference model needs and so we need to gather the missing bits as buried inside documentation, code and in human heads.*
 - Keep proprietary Euclid-related, AstroWISE/GOOD, Euclid SGS, or other survey-imaging data dependencies labeled as access-conditional rather than assumed public inputs.
 
 `T3.2 Integrated instrument, sensor, detector, and archive workflows`
-- Produce the first Euclid/OmegaCEN imaging integration package, starting from a reduced case that can be rerun and inspected before larger validation runs.
-- For Euclid/OmegaCEN, build the first shared-scene imaging integration for one accessible field with the color-homogeneity metric as the primary target and astrometry, photometry, or failure diagnosis as secondary or later extensions.
+- Produce the first Euclid/OmegaCEN imaging integration package, starting from a reduced case that can be rerun and inspected before larger validation runs. *Comment: Gijs assumes the previous sentence means that we build a pipeline that through Bayesian inference photometrically and astrometrically recalibrates a single epoch frame. Or the coaddition process of PSF models / science pixels.*
+- For Euclid/OmegaCEN, build the first shared-scene imaging integration for one accessible field with the color-homogeneity metric as the primary target and astrometry, photometry, or failure diagnosis as secondary or later extensions. *Comment: to Gijs it appears a nice choice to make color-homogeneity the primary target. As this choice appears to be an early one in the design choices it appears good to review the choice after the next iteration of mutual clarifications between the UBIK and OmegaCEN/Euclid teams. Reason: perhaps there is a primary target that is less challenging or less complex ones among the choices. And it might be good to first go for the "low-hanging fruit" in this exercise of two domains (Euclid and UBIK) getting to understand each others domains*
 
 `T3.3 Instrument-integration comparison and lessons`
-- Compare Euclid/OmegaCEN integration lessons: which metadata were essential, which PSF, passband, astrometric, or photometric calibration terms had to be fixed or inferred, which data-access limits shaped validation, and which assumptions affected posterior meaning.
-- Produce validation packages that distinguish survey-production handoff and instrument-integration limits from later application-validation limits.
+- Compare Euclid/OmegaCEN integration lessons: which metadata were essential, which PSF, passband, astrometric, or photometric calibration terms had to be fixed or inferred, which data-access limits shaped validation, and which assumptions affected posterior meaning. *Comments: Gijs assumes this sentence refers to the question: which modelling assumptions changed the interpretation of the final inferred probability distribution?*
+- Produce validation packages that distinguish survey-production handoff and instrument-integration limits from later application-validation limits. *Comment: Gijs does not grasp what "later application-validation limits" means in this context.*
 - Feed reusable integration lessons to WP1, execution and profiling lessons to WP5, and validated onboarding material to WP6.
 
 ### WP4 Scientific and Operational Applications
-WP4 turns the adapter and instrument-integration work into validated scientific and operational demonstrators. It owns the application value claims, baseline comparisons, posterior products, quality metrics, scope boundaries, and comparative evidence across the active application lines.
+WP4 turns the adapter and instrument-integration work into validated scientific and operational demonstrators. It owns the application value claims, baseline comparisons, posterior products, quality metrics, scope boundaries, and comparative evidence across the active application lines. *Comment: Gijs does not grasp what comparative evidence means in this context.*
 
 Relevant WP4 objectives:
 - Deliver scoped application demonstrators whose value stands on its own while also proving reuse of the shared UBIK stack.
 - Validate Euclid/OmegaCEN precision imaging inference as the survey-production quality application track.
 - Use Euclid/OmegaCEN as a precision survey-production demonstrator focused first on color homogeneity in one public or accessible Euclid-related field, with uncertainty and quality-failure diagnostics as central outputs.
-- Require each application claim to include a baseline, uncertainty or diagnostic evidence, approximation labels, provenance, scope boundary, and rerunnable workflow record.
+- Require each application claim to include a baseline, uncertainty or diagnostic evidence, approximation labels, provenance, scope boundary, and rerunnable workflow record. *Comment: Gijs does not grasp what approximation labels means.*
 
 `T4.1 Application-demonstrator scoping and validation plans`
 - Define the first demonstrator scope, baseline, data route, validation metric, reusable UBIK contribution, compute need, risks, and deferred expansions for each active application line.
@@ -102,8 +102,8 @@ Relevant WP4 objectives:
 - Keep AstroWISE, GOOD, Euclid SGS, and Euclid Science Data Center uptake as maturation routes unless formal commitments and validation evidence support stronger claims.
 
 ## Deliverable Text
-- `D3.1`: Instrument-integration readiness matrix. Instrument-integration specification and readiness matrix with line-specific cards for ALMA, Euclid/OmegaCEN, the shared Sentinel-first EO layer with DBFZ and SatRev application tracks, ScopeSim-JAX, Pyxel-JAX, and BCDI. WP3, report, public, month 12.
-- `D3.2`: Integrated instrument workflow package. Integrated instrument/sensor/detector workflow package with validation evidence for selected current integrations and readiness labels for deferred or access-conditional routes. WP3, demonstrator, public, month 30.
+- `D3.1`: Instrument-integration readiness matrix. Instrument-integration specification and readiness matrix with line-specific cards for ALMA, Euclid/OmegaCEN, the shared Sentinel-first EO layer with DBFZ and SatRev application tracks, ScopeSim-JAX, Pyxel-JAX, and BCDI. WP3, report, public, month 12. *Comment: Gijs needs clarification of what projects/instruments some acronyms refer to.*
+- `D3.2`: Integrated instrument workflow package. Integrated instrument/sensor/detector workflow package with validation evidence for selected current integrations and readiness labels for deferred or access-conditional routes. WP3, demonstrator, public, month 30. *Comment: Gijs assumes integrated refers to creating an independently buildable and installable software package. That is does not refer to integrating the workflow package into another software package. And Gijs assumes that public means accessible to EU programme reviewers and Euclid Project Office.*
 - `D3.3`: Instrument-integration evidence package. Instrument-integration comparative evidence package, including calibration, provenance, metadata, data-access, approximation-label lessons, and readiness status across current integration lines. WP3, report, public, month 48.
 - `D4.1`: Application-demonstrator readiness matrix. Application-demonstrator scope and readiness matrix with line-specific validation routes, baselines, data access, readiness status, and scope boundaries. WP4, report, public, month 18.
 - `D4.2`: Validation-grade application workflows. Validation-grade application workflow package from at least two distinct application lines, with baseline comparisons, uncertainty products, diagnostics, and execution records. WP4, demonstrator, public, month 36.
