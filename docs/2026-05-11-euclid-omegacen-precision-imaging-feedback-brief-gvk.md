@@ -3,7 +3,7 @@
 
   
 ## Purpose
-This brief records the current proposal-facing state of the Euclid/OmegaCEN line as of `2026-05-12`.
+This brief records the current proposal-facing state of the Euclid/OmegaCEN line as of `2026-05-12` to which Gijs added his feedback `2026-05-17`.
 It is derived from [application_concept_omegacen](https://github.com/gijsverdoeskleijn/J-UBIK-gvk/blob/main/docs/application_concept_omegacen.md) which was used to update the proposal. This bried is derived from the proposal text only and keeps the current work-package, deliverable, and milestone wording as intact as possible while converting LaTeX syntax to Markdown.
 
 ## Feedback Requested
