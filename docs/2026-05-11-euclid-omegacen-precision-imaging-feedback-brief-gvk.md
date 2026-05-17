@@ -15,10 +15,10 @@ This is an informal proposal-framing check, not a final commitment of role, effo
 You can either answer the questions below or add comments directly in the text using `Comment: ...`.
 
 1. What in this description feels accurate and important to keep? *Comment: OmegaCEN's contribution to WP3 and WP4.* 
-2. What feels wrong, misleading, overstated, understated, or awkwardly framed? *Comment: Nothing.* 
+2. What feels wrong, misleading, overstated, understated, or awkwardly framed? *Comment: nothing major now. The questions we have are added as comments in this document. We expect that Eduardo and Gijs achieve clarity about concepts and jargon used in this brief by joining the weekly 9:00 CEST regular UBIK application meetings. Based on that proposals for changes, additions, removals or rephrasing can be requested by Eduardo and Gijs.** 
 3. What scientific, instrumental, data, validation, or domain context is missing? *Comment: Gijs sees two processes that we can replace by their Bayesian imaging counterpart. The process of recalibrating photometrically and astrometrically the single epoch frames and their PSF models. And the process of coadding the recalibrated single epoch frame data products into coadded PSF models and coadded science pixels and their auxiliary data.*
-4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective? Comment: Explore if OmegaCEN should make a contribution to WP5. 
-5. What should we change, add, remove, or rephrase? *Comment: Gijs thinks first thing to achieve is that Eduardo and/or Gijs join the 9:00 CEST regular UBIK application meeting. Reason: ensure Eduardo and Gijs achieve clarity about concepts and jargon used in this brief. Next one  Then proposals for changes, additions, removals or rephrasing can be requested by Eduardo and Gijs.*
+4. Are the proposed role, deliverables, milestones, and scope boundaries appropriate from your perspective? *Comment: Explore if OmegaCEN should make a contribution to WP5.* 
+5. What should we change, add, remove, or rephrase? *Comment:  Add: the OmegaCEN team that participates in the [HORIZON-INFRA-2026-TECH-01-01](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-INFRA-2026-TECH-01-01?isExactMatch=true&status=31094501,31094502,31094503&callIdentifier=HORIZON-INFRA-2026-01&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate) proposal. And indicate the distribution of tasks over them. The period of the project is expected to be 1Jul2027-1Jul2032. The foreseen participants are the newly requested postdoc, Eduardo Balbinot, Gijs Verdoes Kleijn plus software engineers of the Netherlands Euclid Science Data Center.* 
 
 ## Proposal Context
 UBIK is framed as a shared inferential core developed together with application lines, not as a set of disconnected demonstrations.
@@ -89,9 +89,9 @@ Relevant WP4 objectives:
 - Use Euclid/OmegaCEN as a precision survey-production demonstrator focused first on color homogeneity in one public or accessible Euclid-related field, with uncertainty and quality-failure diagnostics as central outputs.
 - Require each application claim to include a baseline, uncertainty or diagnostic evidence, approximation labels, provenance, scope boundary, and rerunnable workflow record. *Comment: Gijs does not grasp what approximation labels means.*
 
-`T4.1 Application-demonstrator scoping and validation plans`
+`T4.1 Application-demonstrator scoping and validation plans` *Comment: is it an idea to add a task that familiarizes the new postdoc with the Euclid ground-based imaging. Participation in the Euclid ground-based data scientific quality validation appears an excellent way to get the domain knowledge.*
 - Define the first demonstrator scope, baseline, data route, validation metric, reusable UBIK contribution, compute need, risks, and deferred expansions for each active application line.
-- For Euclid/OmegaCEN, scope one public or accessible Euclid-related field with color homogeneity as the primary metric, using recognized Euclid/OmegaCEN-relevant baselines where available and keeping proprietary data access conditional.
+- For Euclid/OmegaCEN, scope one public or accessible Euclid-related field with color homogeneity as the primary metric, using recognized Euclid/OmegaCEN-relevant baselines where available and keeping proprietary data access conditional. 
 
 `T4.2 Validation-grade application workflow packages`
 - Bring at least two distinct application lines to validation-grade application packages with domain validation, posterior products, uncertainty summaries, residuals, posterior-predictive checks, approximation labels, runtime records, and validation evidence.
@@ -99,7 +99,7 @@ Relevant WP4 objectives:
 
 `T4.3 Final comparative scientific and operational evidence`
 - Assemble cross-line comparison evidence across validated applications, separating application performance from adapter readiness, instrument-integration quality, and compute constraints.
-- Keep AstroWISE, GOOD, Euclid SGS, and Euclid Science Data Center uptake as maturation routes unless formal commitments and validation evidence support stronger claims.
+- Keep AstroWISE, GOOD, Euclid SGS, and Euclid Science Data Center uptake as maturation routes unless formal commitments and validation evidence support stronger claims. 
 
 ## Deliverable Text
 - `D3.1`: Instrument-integration readiness matrix. Instrument-integration specification and readiness matrix with line-specific cards for ALMA, Euclid/OmegaCEN, the shared Sentinel-first EO layer with DBFZ and SatRev application tracks, ScopeSim-JAX, Pyxel-JAX, and BCDI. WP3, report, public, month 12. *Comment: Gijs needs clarification of what projects/instruments some acronyms refer to.*
